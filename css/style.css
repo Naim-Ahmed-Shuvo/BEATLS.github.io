@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* header section css staart */
+header{
+    background: #0872b9;
+    padding: 10px 0;
+    
+}
+
+header ul {
+    float: right;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+header ul li{
+    display: inline-block;
+    color: #fff;
+    padding: 0 12px;
+    font-size: 14px;
+}
+
+header ul li a{
+    color: #fff;
+}
+
+header ul li:hover a{
+    color: #2f3d46;
+}
+.welcome{
+   
+}
+
+.welcome p{
+    color: #d9e0e4;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+}
+/* header section css end */
+
+
+/* logo-link section css start */
+
+.logo-link{
+    background: #ffffff;
+
+    padding: 20px;
+}
+
+.logo-link .links ul{
+    float: right;
+}
+
+.logo-link .links ul li{
+    display: inline-block;
+    padding: 0 14px;
+    margin-top: 15px;
+}
+.logo-link .links ul li a{
+    color: #353535;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.logo-link .links ul li a:hover{
+    color: #4488c3;
+}
+/* logo-link 353535section css end */
+
+/* ....<<banner css start>>>,,,,,,,,, */
+.banner{
+    background-image: url(../images/banner.png);
+    /* height: 400px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    
+}
+
+.banner-overlay{
+    padding: 88px 0;
+    background: rgba(0,0,0,0.55);
+}
+.banner-overlay .content{
+    color: #ffffff;
+    text-align: right;
+}
+
+.banner-overlay .content h3{
+    font-size: 30px;
+    margin-bottom: 14px;
+}
+
+.banner-overlay .content h1{
+    font-size: 40px;
+    margin-bottom: 14px;
+}
+.banner-overlay .content  p{
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.banner-overlay .content .btn{
+    padding: 10px 44px;
+    /* background: #000; */
+    border: 1px solid #fff;
+   text-align: center;
+   /* margin-right: 16px; */
+   margin-top: 30px;
+   font-size-adjust: 14px;
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.banner-overlay .content .btn-hire
+{
+    margin-right: 15px;
+}
+
+.banner-overlay .content .btn:hover{
+    background: #0872b9;
+    border: none;
+}
+/* ....<<banner css end>>>,,,,,,,,, */
+
+
+/* ....<<about css start>>>,,,,,,,,, */
+.general-heading{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 50px;
+    position: relative;
+    color: #353535;
+    margin-bottom: 95px;
+}
+
+.general-heading h3::after{
+    position: absolute;
+    content: "";
+    bottom: -5%;
+    left: 46%;
+    height: 2px;
+    width: 47px;
+    background-color: darkcyan;
+    /* margin-bottom: 23px; */
+}
+
+.general-heading h3::before{
+    position: absolute;
+    content: "";
+    bottom: -5%;
+    left: 50.99%;
+    height: 2px;
+    width: 7px;
+    background-color: darkcyan;
+}
+.general-heading h3 span::after{
+    position: absolute;
+    content: "";
+    bottom: -5%;
+    left: 52%;
+    height: 2px;
+    width: 4px;
+    background-color: darkcyan;
+}
+.general-heading h3 span::before{
+    position: absolute;
+    content: "";
+    bottom: -5%;
+    left: 53%;
+    height: 2px;
+    width: 2px;
+    background-color: darkcyan;
+}
+
+.parragraph{
+    padding: 60px 20px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #555555;
+    word-spacing: 2px;
+}
+/* ....<<about css end>>>,,,,,,,,, */
+
+
+
+/* ....<<service css start>>>,,,,,,,,, */
+.service-icon-bg{
+    height: 100px;
+    width: 100px;
+    background-color: #f1f1f1;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -21%;
+    left: 37%;
+    transition: translate(-50%,-50%);
+    
+}
+
+.service-main-container:hover .service-icon-bg{
+    border: 3px solid #6cc1e9;
+    
+}
+
+
+.service-icon{
+    height: 85px;
+    width: 85px;
+    background-color: #e6dcde;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-main-container:hover .service-icon{
+    background-color: #6cc1e9;
+    cursor: pointer;
+    /*  */
+}
+
+.service-main-container:hover .service-content{
+    border: 1px solid #cbc8c8;
+}
+.service-content{
+    background-color: #efdcdc;
+    text-align: center;
+   padding: 77px 23px 20px 23px;
+}
+.service-content h3{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+.service-content p{
+    padding-top: 17px;
+    font-size: 13px;
+    font-family: 'Open-sans', sans-serif;
+}
+/* ....<<service css end>>>,,,,,,,,, */
+
+
+/* ....<<portfolio css start>>>,,,,,,,,, */
+.sm-img{
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.img-overly{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    
+}
+
+.sm-img:hover .img-overly{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.img-overly a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.img-overly a:hover i{
+    color: #fff;
+}
+
+.big-img{
+    position: relative;
+}
+
+.big-img:hover .img-overly{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+/* ....<<portfolio css end>>>,,,,,,,,, */
+
+
+/* ....<<team css start>>>,,,,,,,,, */
+.team-img{
+    position: relative;
+}
+.team-overly{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 37%;
+    background-color: rgba(0,0,0,0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    
+}
+
+.team-overly ul li{
+    padding: 17px 0;
+}
+
+
+.team-overly ul li a{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
+
+.team-overly ul li a:hover{
+    background-color: rgb(118, 195, 240);
+    border: 1px solid rgb(118, 195, 240);
+    transition: all linear .3s;
+}
+.team-img:hover .team-overly{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+.team-info{
+    text-align: center;
+    margin-top: 17px;
+}
+
+.team-info h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.team-info p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.main-container:hover .team-info h3{
+    color: rgb(118, 195, 240);
+}
+/* ....<<team css end>>>,,,,,,,,, */
+
+
+/* ....<<testimonial css start>>>,,,,,,,,, */
+.testimonial-section{
+    padding-bottom: 60px;
+}
+.img{
+    margin-bottom: 40px;
+}
+.img,.info{
+    text-align: center;
+}
+.info{
+   padding: 20px;
+   background: #d5d7db;
+
+}
+.info h4{
+   font-size: 16px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 500;
+   margin-top: 15px;
+   /* margin-bottom: 20px; */
+}
+
+.info h5{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.info p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+   
+}
+.info img{
+    /* margin-top: 5px; */
+}
+.roted{
+    height: 40px;
+    width: 40px;
+    background: #d5d7db;
+    position: absolute;
+    top: 34%;
+    left: 46%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+/* ....<<testimonial css end>>>,,,,,,,,, */
+
+
+/* ....<<contact css start>>>,,,,,,,,, */
+.contact-section{
+    background: #363535;
+    color: beige;
+    padding-top: 20px ;
+}
+
+.f-description p{
+    font-size: 13px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    /* padding: 10px; */
+}
+.f-logo{
+    margin-bottom: 25px;
+}
+
+.f-head{
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family:  'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.f-icon ul li{
+    padding: 13px 0;
+}
+
+.f-icon ul li a{
+    height: 36px;
+    width: 36px;
+    background: aqua;
+    border-radius: 50%;
+    display: block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    color: beige;
+}
+
+.icon-des ul li{
+    padding: 10px 0 0 0;
+}
+
+/* .icon-des ul li:nth-child(2),
+.icon-des ul li:nth-child(3){
+    padding-top: 0px;
+} */
+
+.icon-des ul li p{
+    font-size: 13px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.f-row-link ul li{
+    font-size: 13px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 0 25px 0;
+    color: beige;
+}
+
+.f-row-link ul li a{
+    color: beige;
+    text-decoration: none;
+}
+
+.f-row-link ul li:hover a{
+    color: aqua;
+}
+
+.f-row-img img{
+  margin-bottom: 15px;
+}
+/* ....<<contact css end>>>,,,,,,,,, */
+
+.footer-section{
+    padding: 10px 0 0 0;
+    background-color: rgb(66, 64, 64);
+    text-align: center;
+    /* line-height: 45px; */
+    /* height: 45px; */
+}
+
+.footer-section p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: blanchedalmond;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+}
